@@ -36,7 +36,7 @@ export default function Estatico4(props){
 
      return(
         <div>
-            <h2>Estatico#04</h2>
+            <h2>Dinamico#04</h2>
             <ul>
                {renderizarProdutos()}
             </ul>
