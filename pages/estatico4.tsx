@@ -1,6 +1,10 @@
 import React from "react";
 
-export function getStaticProps(){
+
+export async function getStaticProps(){
+
+   const resp = await fetch("http://localhost:3000/api/produtos");
+
      return{
         props:{
              
